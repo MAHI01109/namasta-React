@@ -1,10 +1,5 @@
-/*
-<div class="parent">
-<div class="child">
-<h1>hellow theree</h1>
-</div>
-</div>
-*/
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const parent = React.createElement("div", { class: "parent" }, [
   React.createElement("div", { class: "child1" }, [
